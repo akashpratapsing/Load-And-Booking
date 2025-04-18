@@ -1,11 +1,8 @@
 package com.loadAndBooking.dto;
 
 import jakarta.validation.constraints.*;
-import lombok.Data;
-
 import java.util.UUID;
 
-@Data
 public class BookingRequestDTO {
 
     @NotNull(message = "Load ID is required")

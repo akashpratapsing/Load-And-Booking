@@ -1,12 +1,9 @@
 package com.loadAndBooking.dto;
 
 import com.loadAndBooking.enums.LoadStatus;
-import lombok.Data;
-
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Data
 public class LoadResponseDTO {
     private UUID id;
     private String shipperId;

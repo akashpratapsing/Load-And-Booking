@@ -1,11 +1,8 @@
 package com.loadAndBooking.entity;
 
 import jakarta.persistence.Embeddable;
-import lombok.Data;
-
 import java.time.LocalDateTime;
 
-@Data
 @Embeddable
 public class Facility {
 
