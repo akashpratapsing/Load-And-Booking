@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.loadAndBooking.services.LoadServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! -- in com.loadAndBooking.services.LoadServiceImplTest
+com.loadAndBooking.services.LoadServiceImplTest.testGetLoadById_shouldReturnDTO -- Time elapsed: 0.024 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.loadAndBooking.entity.Facility.getLoadingPoint()" because the return value of "com.loadAndBooking.entity.Load.getFacility()" is null
+	at com.loadAndBooking.utils.LoadMapper.toDTO(LoadMapper.java:34)
+	at com.loadAndBooking.services.impl.LoadServiceImpl.getLoadById(LoadServiceImpl.java:37)
+	at com.loadAndBooking.services.LoadServiceImplTest.testGetLoadById_shouldReturnDTO(LoadServiceImplTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
