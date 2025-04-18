@@ -11,4 +11,5 @@ import java.util.UUID;
 public interface LoadRepository extends JpaRepository<Load, UUID> {
     List<Load> findByShipperId(String shipperId);
     List<Load> findByTruckType(String truckType);
+    List<Load> findByShipperIdAndTruckType(String shipperId, String truckType);
 }
