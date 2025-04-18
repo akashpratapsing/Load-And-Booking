@@ -1,11 +1,8 @@
 package com.loadAndBooking.dto;
 
 import jakarta.validation.constraints.*;
-import lombok.Data;
-
 import java.time.LocalDateTime;
 
-@Data
 public class LoadRequestDTO {
 
     @NotBlank(message = "Shipper ID is required")

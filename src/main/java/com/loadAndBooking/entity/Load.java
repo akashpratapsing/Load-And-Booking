@@ -2,12 +2,9 @@ package com.loadAndBooking.entity;
 
 import com.loadAndBooking.enums.LoadStatus;
 import jakarta.persistence.*;
-import lombok.Data;
-
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Data
 @Entity
 public class Load {
 
